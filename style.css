@@ -35,14 +35,12 @@ body {
     color: #00bcd4;
 }
 
-/* Hero Section */
- .hero {
+.hero {
     position: relative;
-    min-height: 100vh; 
+   /* Hero Section */
+ height: 90vh; 
     background: url('images/image.jpg') no-repeat center/cover;
     filter:blur(1) brightness(1) contrast(1.1)
-    background-size: cover;
-                                         
 }
 
 /* Overlay */
@@ -52,6 +50,7 @@ body {
     height: 100%;
     background: rgba(0, 0, 0, 0.2);
 }
+ 
 
 /* Content */
 .content {
