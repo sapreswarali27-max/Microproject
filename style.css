@@ -10,12 +10,14 @@ body {
  
 .navbar {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items:center;
-    padding: 15px 15px;
+    padding: 10px 20px;
     background: white;
     color: #0f172a;
     border: 2px solid skyblue;
+    flex-wrap: wrap;
 }
 
 .navbar a {
@@ -37,7 +39,7 @@ body {
 /* Hero Section */
  .hero {
     position: relative;
-    height: 90vh; 
+    min-height: 100vh; 
     background: url('images/image.jpg') no-repeat center/cover;
     filter:blur(1) brightness(1) contrast(1.1)
     background-size: cover;
@@ -61,13 +63,12 @@ body {
     color: white;
     max-width: 800px;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
-}
-@media(max-width: 600px) {
+} 
 .content h1 {
     font-size: 24px;
     margin-bottom: 20px;
  }
-}    
+
 
 .content p {
     font-size: 16px;
